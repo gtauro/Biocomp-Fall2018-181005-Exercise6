@@ -8,7 +8,7 @@ data <- read.csv(file = "iris.csv", stringsAsFactors = FALSE)  # defines a varia
 numLines = 10  # variable for number of lines
 head(data, n = numLines)  # use of head function, prints out first 10 lines of data
 
-### Brittni: We wanted you to recreate the functionality of head without using it. I took off 0.25 points, because you did still assign the variables. What we were looking for was something like:
+### Brittni: We wanted you to recreate the functionality of head without using it. I took off 0.1 points, because you did still assign the variables. What we were looking for was something like:
 ## data[1:numLines,]
 
 # QUESTION 2.1
